@@ -28,7 +28,7 @@ The verdict? **This is not a coin flip.** The models agree: Seattle has a clear 
 ::: {.callout-note}
 ## Prediction Accountability
 
-These predictions were locked and published on February 7, 2026, before the game. All code and data are available on [GitHub](https://github.com/yourusername/superbowl-lx). This wasn't written with the benefit of hindsight—it's a genuine test of whether statistical models can outperform conventional wisdom.
+These predictions were locked and published on February 7, 2026, before the game. All code and data are available on [GitHub](https://github.com/areeslindley/nfl-elo-model/tree/main). This wasn't written with the benefit of hindsight—it's a genuine test of whether statistical models can outperform conventional wisdom.
 :::
 
 ## Why These Two Teams?
@@ -586,7 +586,7 @@ For those interested in implementation details:
 All data from [nflverse](https://nflverse.nflverse.com/):
 - `nflreadr::load_schedules()` for game results (2015-2025)
 - `nflfastR::load_pbp()` for play-by-play data (2025 season)
-- Full reproducible code on [GitHub](https://github.com/yourusername/superbowl-lx)
+- Full reproducible code on [GitHub](https://github.com/areeslindley/nfl-elo-model/tree/main)
 
 **Elo Model Inspiration:**
 
