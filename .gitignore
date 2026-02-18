@@ -1,0 +1,56 @@
+# R
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+*.Rproj.user
+.Renviron
+.env
+
+# Data directories (keep structure, ignore contents)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/output/*
+!data/output/.gitkeep
+
+# R Markdown
+_site/
+docs/_site/
+*.html
+*.pdf
+
+# Figures (optional - uncomment if you want to ignore generated figures)
+# figures/*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Documentation files (keep only README.md)
+*.md
+!README.md
+
+# Helper/test scripts
+test-*.R
+validate-*.R
+setup-*.R
+update-*.R
+install-dependencies.R
+render-quarto.R
+
+# Backup files
+*.bak
+*.backup
+
+# Quarto cache
+*_cache/
+*_files/
+
+# Post-game analysis (separate document)
+superbowl-analysis.Rmd
