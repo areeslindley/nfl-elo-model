@@ -170,8 +170,8 @@ The rendered HTML will be saved as `Superbowl-pregame-analysis.html`.
 
 ## License
 
-[Add your license here]
+MIT License
 
 ## Author
 
-[Add your name/contact info here]
+Alun Rees-Lindley
